@@ -1,3 +1,24 @@
+# Install
+
+Like always, you can do the following:
+
+`git clone --depth=0 https://github.com/aaroncalderon/everyauth-ldap-demo.git`
+
+Then do:
+
+`npm install`
+
+# Run 
+
+To run the example do:
+
+```
+cd everyauth-ldap-demo
+node index
+```
+
+Then go to `http://localhost:3000` to see the demo. Do not forget to configure it, see below.
+
 # INFO
 
 Please note that I am not using the original `everyauth` module, I am using my fork for the purpose to illustrate the
