@@ -27,9 +27,8 @@ everyauth.ldapfork // line 38
   .searchFilter(conf.searchFilter)
   .requireGroupDn(conf.RequireGroupDn)
 ```
+
 and do not forget to comment out line 3.
-
-
 
 ```javascript
 var express = require('express')
@@ -37,3 +36,5 @@ var express = require('express')
   , conf = require('./conf') // this one
   , everyauthRoot = __dirname + '/';
 ```
+
+# how do we merge change?
