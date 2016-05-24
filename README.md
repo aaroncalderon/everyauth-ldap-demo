@@ -42,3 +42,7 @@ var express = require('express')
 # How to manage change...
 
 Lets see.
+
+# So, we have many questions
+
+Let's start a forum to address those questions and document our approach.
