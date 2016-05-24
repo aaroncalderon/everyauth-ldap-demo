@@ -1,0 +1,14 @@
+- if (!everyauth.loggedIn)
+  h2 Not Authenticated
+  #password-login
+    a(href='/login', style='border: 0px') Login with LDAP
+- else
+  h2 Authenticated
+  h2= title
+  - if (everyauth.ldapfork)
+    h3 LDAP Data:
+    p= JSON.stringify(everyauth)
+  h3 Actions
+  a(href='/logout') Logout
+  #user= JSON.stringify(req)
+ 

@@ -1,0 +1,21 @@
+{
+  "name": "everyauth-ldap-demo",
+  "version": "1.0.0",
+  "description": "Trying to use everyauth with LDAP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ldap",
+    "anyauth"
+  ],
+  "author": "Aaron Calderon",
+  "license": "MIT",
+  "dependencies": {
+    "everyauth": "git+https://github.com/aaroncalderon/everyauth.git#master",
+    "jade": "^1.11.0",
+    "ldapauth-fork": "^2.5.2",
+    "ldapjs": "^1.0.0"
+  }
+}
