@@ -36,13 +36,3 @@ var express = require('express')
   , conf = require('./conf') // this one
   , everyauthRoot = __dirname + '/';
 ```
-
-# how do we merge change?
-
-# How to manage change...
-
-Lets see.
-
-# So, we have many questions
-
-Let's start a forum to address those questions and document our approach.
