@@ -38,3 +38,7 @@ var express = require('express')
 ```
 
 # how do we merge change?
+
+# How to manage change...
+
+Lets see.
